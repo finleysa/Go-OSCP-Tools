@@ -15,7 +15,6 @@ func main() {
 		fmt.Println("Arguemnts Invalid")
 		fmt.Println("Format is <script> <address> <port>")
 		fmt.Println("Example: ./rev-shell 127.0.0.1 8080")
-		fmt.Println(os.Args[2])
 		return
 	}
 
